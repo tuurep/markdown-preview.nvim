@@ -212,10 +212,7 @@ export default class PreviewPage extends React.Component {
     }
     this.setState({
       cursor,
-      name: ((name) => {
-        let tokens = name.split(/\\|\//).pop().split('.');
-        return tokens.length > 1 ? tokens.slice(0, -1).join('.') : tokens[0];
-      })(name),
+      name: name.split(/\\|\//).pop(),
       content: this.md.render(content.join('\n')),
       pageTitle,
       contentEditable: options.content_editable,

@@ -91,7 +91,7 @@ endif
 " preview page title
 " ${name} will be replace with the file name
 if !exists('g:mkdp_page_title')
-  let g:mkdp_page_title = '「${name}」'
+  let g:mkdp_page_title = '${name}'
 endif
 
 " recognized filetypes
