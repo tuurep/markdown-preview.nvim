@@ -1,3 +1,7 @@
+app/out
+*yarn.lock
+tsconfig.tsbuildinfo
+
 *.s[a-w][a-z]
 *.un~
 Session.vim
