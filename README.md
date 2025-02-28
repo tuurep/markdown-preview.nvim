@@ -1,3 +1,11 @@
+### :warning: Archived:
+
+This fork hasn't been kept in sync for a long while now,
+
+I've been using https://github.com/jannis-baum/Vivify instead.
+
+---
+
 Forked from [iamcco/markdown.nvim](https://github.com/iamcco/markdown-preview.nvim)
 
 # Why?
@@ -7,8 +15,6 @@ The point of this fork is only to modify browser favicon and browser tab title :
 I've set favicon as this: ![new favicon](app/_static/favicon.ico)
 
 I wanted the title of the browser tab to be the full filename (so include `.md` or `.markdown` extension), but the upstream code trims the file extension outside of the user setting that allows formatting the title string.
-
-I'm tracking upstream and merging changes and fixes.
 
 # Setup for Vim (8+) and NeoVim
 
